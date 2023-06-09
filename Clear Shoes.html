@@ -1,0 +1,102 @@
+* {
+    margem: 0;
+    preenchimento: 0;
+    box-sizing: border-box;
+    família da fonte: Roboto, sem serifa;
+}
+
+corpo {
+    cor de fundo: #f5f6fa;
+}
+
+li {
+    estilo de lista: nenhum;
+}
+
+.container {
+    largura máxima: 1024px;
+    largura: 100%;
+    margem: 0 automático;
+}
+
+cabeçalho {
+    cor de fundo: #182C61;
+    posição: pegajoso;
+    superior: 0;
+    esquerda: 0;
+}
+
+cabeçalho .container {
+    exibição: flexível;
+    justificar-conteúdo: espaço-entre;
+    itens de alinhamento: centro;
+    preenchimento: 16px 0;
+}
+
+.cardápio {
+    exibição: flexível;
+}
+
+.menu li {
+    intensidade da fonte: Negrito;
+    margem esquerda: 24px;
+}
+
+.menu li a {
+    cor: #fff;
+    decoração de texto: nenhum;
+}
+
+seção {
+    preenchimento: 56px 0;
+}
+
+.produtos {
+    margem superior: 40px;
+    exibição: grade;
+    grade-modelo-colunas: repeat(3, 32,66%);
+    espaçamento entre colunas: 1%;
+    intervalo entre filas: 4%;
+    largura: 100%;
+}
+
+.product-item img {
+    largura: 100%;
+    raio da borda: 16px;
+}
+
+.botão do produto {
+    exibição: bloco;
+    cor de fundo: #44bd32;
+    cor: #fff;
+    alinhamento de texto: centro;
+    preenchimento: 8px 0;
+    raio da borda: 8px;
+    margem superior: 8px;
+    decoração de texto: nenhum;
+}
+
+.botão do produto: passe o mouse {
+    cor de fundo: #4cd137;
+}
+
+@tela de mídia e (largura máxima: 1023px) {
+    .container {
+        largura máxima: 80%;
+    }
+
+    .produtos {
+        grade-modelo-colunas: repeat(2, 48,5%);
+        espaçamento entre colunas: 3%;
+    }
+}
+
+@tela de mídia e (largura máxima: 767px) {
+    .produtos {
+        exibição: bloco;
+    }
+
+    .produto-item {
+        margem inferior: 32px;
+    }
+}
